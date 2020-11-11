@@ -1,6 +1,18 @@
+<br><br><br>
+<img align="center" alt="Logo" src="img/logo.png">
+<br><br><br>
+
 # dotfiles
 
-<img src="img/logo.png">
+**Many things will be changed in this repository, so please don't use it yet.**
+
+# Installation
+
+```bash
+git clone https://github.com/PryosCode/dotfiles ~/dotfiles
+chmod +x ~/dotfiles/install.sh
+~/dotfiles/install.sh
+```
 
 # License
 

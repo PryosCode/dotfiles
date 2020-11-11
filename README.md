@@ -1,5 +1,5 @@
 <br><br><br><br><br>
-<a href="#installation"><img align="center" alt="Logo" src="img/logo.png"></a>
+<a href="#installation"><img align="center" alt="Logo" src="img/logo.png"></a><br>
 <br><br><br><br><br>
 
 <p align="center">

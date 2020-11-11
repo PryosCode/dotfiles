@@ -15,7 +15,7 @@
 # Installation
 
 ```bash
-git clone https://github.com/PryosCode/dotfiles ~/dotfiles
+git -C ~ clone https://github.com/PryosCode/dotfiles
 chmod +x ~/dotfiles/install.sh
 ~/dotfiles/install.sh
 ```

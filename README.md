@@ -1,6 +1,6 @@
-<br><br><br>
+<br><br><br><br><br>
 <img align="center" alt="Logo" src="img/logo.png">
-<br><br><br>
+<br><br><br><br><br>
 
 <p align="center">
     <a href="#installation"><img src="https://img.shields.io/github/repo-size/PryosCode/dotfiles?label=Size" alt="Size"></a>

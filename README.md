@@ -23,9 +23,8 @@ chmod +x ~/dotfiles/install.sh
 # Restore
 
 ```bash
-chmod +x ~/dotfiles/install.sh
-~/dotfiles/restore.sh
-rm -r ~/dotfiles
+chmod +x ~/dotfiles/restore.sh
+~/dotfiles/restore.sh && rm -r ~/dotfiles
 ```
 
 # License

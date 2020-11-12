@@ -12,7 +12,7 @@
 
 **Many things will be changed in this repository, so please don't use it yet.**
 
-# Installation
+## Installation
 
 ```bash
 git -C ~ clone https://github.com/PryosCode/dotfiles
@@ -20,14 +20,14 @@ chmod +x ~/dotfiles/install.sh
 ~/dotfiles/install.sh
 ```
 
-# Restore
+## Restore
 
 ```bash
 chmod +x ~/dotfiles/restore.sh
 ~/dotfiles/restore.sh && rm -rf ~/dotfiles
 ```
 
-# License
+## License
 
 Copyright 2020 PryosCode
 

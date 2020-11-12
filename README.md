@@ -20,7 +20,7 @@ chmod +x ~/dotfiles/install.sh
 ~/dotfiles/install.sh
 ```
 
-## Restore
+## Restoration
 
 ```bash
 chmod +x ~/dotfiles/restore.sh

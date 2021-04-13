@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="#installation"><img src="https://img.shields.io/github/repo-size/PryosCode/dotfiles?label=Size" alt="Size"></a>
-    <a href="LICENSE.md"><img src="https://img.shields.io/github/license/PryosCode/dotfiles?label=License" alt="License"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/PryosCode/dotfiles?label=License" alt="License"></a>
     <a href="https://discord.gg/bF2GRHq"><img src="https://discordapp.com/api/guilds/350302354639290379/widget.png" alt="Discord"></a>
 </p>
 

@@ -26,7 +26,7 @@ _Coming Soon_
 ## Installation
 
 ```bash
-git clone https://github.com/PryosCode/dotfiles
+git -C ~ clone https://github.com/PryosCode/dotfiles
 cd dotfiles
 chmod +x dotfiles
 ./dotfiles

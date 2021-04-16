@@ -11,6 +11,7 @@ function install {
 	MODULES=`whiptail --title "dotfiles" --separate-output --checklist "Which configs do you want to install?" 20 75 5 \
 		"bspwm" "Tiling Window Manager" ON \
 		"neofetch" "Information Tool" ON \
+		"picom" "Compositor" ON \
 		"sxhkd" "Hotkey Daemon" ON \
 		"zsh" "Unix Shell" ON \
 		3>&2 2>&1 1>&3`
@@ -24,6 +25,7 @@ function install {
 		case $MODULE in
 			"bspwm") link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc ;;
 			"neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
+			"picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;
 			"sxhkd") link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc ;;
 			"zsh") link home/zshrc ~/.zshrc ;;
 		esac

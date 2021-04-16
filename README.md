@@ -12,6 +12,10 @@
 
 **Many things will be changed in this repository, so please don't use it yet.**
 
+## Screenshots
+
+_Coming Soon_
+
 ## Installation
 
 ```bash

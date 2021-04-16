@@ -10,7 +10,7 @@
 
 # dotfiles
 
-**Many things will be changed in this repository, so please don't use it yet.**
+**Many things will be changed in this repository, so use it at your own risk.**
 
 ## Screenshots
 

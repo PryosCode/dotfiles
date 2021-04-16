@@ -1,0 +1,41 @@
+#!/bin/bash
+
+DIR=`realpath $(dirname $0)`
+
+function link {
+	mkdir -p `dirname $2`
+	ln -s $DIR/$1 $2
+}
+
+function install {
+	link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc
+	link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc
+	link home/config/neofetch/config.conf ~/.config/neofetch/config.conf
+}
+
+function restore {
+	echo TODO
+}
+
+echo
+cat $DIR/img/logo.txt
+echo
+echo https://github.com/PryosCode/dotfiles
+echo
+
+select MODE in Install Restore Quit
+do
+	case $MODE in
+		Install)
+			install
+			break
+		;;
+		Restore)
+			restore
+			break
+		;;
+		Quit)
+			break
+		;;
+	esac
+done

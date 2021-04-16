@@ -8,3 +8,4 @@ function link {
 }
 
 link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc
+link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc

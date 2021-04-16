@@ -27,15 +27,14 @@ _Coming Soon_
 ```bash
 git clone https://github.com/PryosCode/dotfiles
 cd dotfiles
-chmod +x install.sh
-./install.sh
+chmod +x dotfiles
+./dotfiles
 ```
 
 ## Restoration
 
 ```bash
-chmod +x restore.sh
-restore.sh
+./dotfiles
 ```
 
 ## License

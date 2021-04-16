@@ -28,7 +28,7 @@ _Coming Soon_
 
 ```bash
 git -C ~ clone https://github.com/PryosCode/dotfiles
-cd dotfiles
+cd ~/dotfiles
 chmod +x dotfiles
 ./dotfiles
 ```

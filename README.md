@@ -20,6 +20,7 @@ _Coming Soon_
 
 - [bspwm](https://github.com/baskerville/bspwm)
 - [neofetch](https://github.com/dylanaraps/neofetch)
+- [picom](https://github.com/yshui/picom)
 - [sxhkd](https://github.com/baskerville/sxhkd)
 - [zsh](https://www.zsh.org)
 

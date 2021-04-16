@@ -16,11 +16,11 @@
 
 _Coming Soon_
 
-## Dependencies
+## Included
 
-- bspwm
-- sxhkd
-- neofetch
+- [bspwm](https://github.com/baskerville/bspwm)
+- [sxhkd](https://github.com/baskerville/sxhkd)
+- [neofetch](https://github.com/dylanaraps/neofetch)
 
 ## Installation
 

@@ -1,5 +1,5 @@
 <br><br><br><br><br>
-<a href="#installation"><img align="center" width="100%" alt="Logo" src="img/logo.png"></a><br>
+<a href="img/logo.png"><img align="center" width="100%" alt="Logo" src="img/logo.png"></a><br>
 <br><br><br><br><br>
 
 <p align="center">
@@ -15,16 +15,17 @@
 ## Installation
 
 ```bash
-git -C ~ clone https://github.com/PryosCode/dotfiles
-chmod +x ~/dotfiles/install.sh
-~/dotfiles/install.sh
+git clone https://github.com/PryosCode/dotfiles
+cd dotfiles
+chmod +x install.sh
+./install.sh
 ```
 
 ## Restoration
 
 ```bash
-chmod +x ~/dotfiles/restore.sh
-~/dotfiles/restore.sh && rm -rf ~/dotfiles
+chmod +x restore.sh
+restore.sh
 ```
 
 ## License

@@ -1,3 +1,10 @@
 #!/bin/bash
-mkdir -p ~/.config/bspwm/
-ln -s ~/dotfiles/home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc
+
+DIR=`realpath .`
+
+function link {
+	mkdir -p `dirname $2`
+	ln -s $DIR/$1 $2
+}
+
+link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc

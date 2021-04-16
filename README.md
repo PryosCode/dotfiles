@@ -19,8 +19,9 @@ _Coming Soon_
 ## Included
 
 - [bspwm](https://github.com/baskerville/bspwm)
-- [sxhkd](https://github.com/baskerville/sxhkd)
 - [neofetch](https://github.com/dylanaraps/neofetch)
+- [sxhkd](https://github.com/baskerville/sxhkd)
+- [zsh](https://www.zsh.org)
 
 ## Installation
 

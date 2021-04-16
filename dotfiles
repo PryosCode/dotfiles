@@ -10,8 +10,9 @@ function link {
 function install {
 	MODULES=`whiptail --title "dotfiles" --separate-output --checklist "Which configs do you want to install?" 20 75 5 \
 		"bspwm" "Tiling Window Manager" ON \
-		"sxhkd" "Hotkey Daemon" ON \
 		"neofetch" "Information Tool" ON \
+		"sxhkd" "Hotkey Daemon" ON \
+		"zsh" "Unix Shell" ON \
 		3>&2 2>&1 1>&3`
 	if [ -z "$MODULES" ]; then
 		exit
@@ -22,8 +23,9 @@ function install {
 	for MODULE in $MODULES; do
 		case $MODULE in
 			"bspwm") link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc ;;
-			"sxhkd") link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc ;;
 			"neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
+			"sxhkd") link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc ;;
+			"zsh") link home/zshrc ~/.zshrc ;;
 		esac
 	done
 }

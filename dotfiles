@@ -8,34 +8,35 @@ function link {
 }
 
 function install {
-	link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc
-	link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc
-	link home/config/neofetch/config.conf ~/.config/neofetch/config.conf
+	MODULES=`whiptail --title "dotfiles" --separate-output --checklist "Which configs do you want to install?" 20 75 5 \
+		"bspwm" "Tiling Window Manager" ON \
+		"sxhkd" "Hotkey Daemon" ON \
+		"neofetch" "Information Tool" ON \
+		3>&2 2>&1 1>&3`
+	if !(whiptail --title "dotfiles" --yesno "The backup script is currently under development.\nInstall the configs at your own risk!\n\nDo you really want to proceed?" 20 75); then
+		exit
+	fi
+	for MODULE in $MODULES
+	do
+		case $MODULE in
+			"bspwm") link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc ;;
+			"sxhkd") link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc ;;
+			"neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
+		esac
+	done
 }
 
 function restore {
-	echo TODO
+	whiptail --title "dotfiles" --msgbox "This feature is currently under development." 20 75
 }
 
-echo
-cat $DIR/img/logo.txt
-echo
-echo https://github.com/PryosCode/dotfiles
-echo
+MODE=`whiptail --title "dotfiles" --menu "What do you want to do?" 20 75 5 \
+	"Install" "Install and backup current configs" \
+	"Restore" "Restore the backed up configs" \
+	"Exit" "Exit the application" \
+	3>&2 2>&1 1>&3`
 
-select MODE in Install Restore Quit
-do
-	case $MODE in
-		Install)
-			install
-			break
-		;;
-		Restore)
-			restore
-			break
-		;;
-		Quit)
-			break
-		;;
-	esac
-done
+case $MODE in
+	"Install") install ;;
+	"Restore") restore ;;
+esac

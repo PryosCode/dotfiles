@@ -16,6 +16,12 @@
 
 _Coming Soon_
 
+## Dependencies
+
+- bspwm
+- sxhkd
+- neofetch
+
 ## Installation
 
 ```bash

@@ -18,6 +18,7 @@ _Coming Soon_
 
 ## Included
 
+- [alacritty](https://github.com/alacritty/alacritty)
 - [bspwm](https://github.com/baskerville/bspwm)
 - [neofetch](https://github.com/dylanaraps/neofetch)
 - [picom](https://github.com/yshui/picom)

@@ -24,18 +24,12 @@ _Coming Soon_
 - [sxhkd](https://github.com/baskerville/sxhkd)
 - [zsh](https://www.zsh.org)
 
-## Installation
+## Setup
 
 ```bash
 git -C ~ clone https://github.com/PryosCode/dotfiles
 cd ~/dotfiles
 chmod +x dotfiles
-./dotfiles
-```
-
-## Restoration
-
-```bash
 ./dotfiles
 ```
 

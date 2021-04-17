@@ -28,8 +28,8 @@ _Coming Soon_
 ## Setup
 
 ```bash
-git -C ~ clone https://github.com/PryosCode/dotfiles
-cd ~/dotfiles
+git clone https://github.com/PryosCode/dotfiles
+cd dotfiles
 chmod +x dotfiles
 ./dotfiles
 ```

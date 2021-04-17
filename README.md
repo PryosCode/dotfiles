@@ -32,7 +32,7 @@ _Coming Soon_
 ### Simple
 
 ```bash
-curl -L https://git.io/JOBCT | sh
+curl -L https://git.io/JOBNJ | sh
 ```
 
 ### Manually

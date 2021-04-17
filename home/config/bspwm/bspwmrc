@@ -1,6 +1,11 @@
 #!/bin/sh
 
+killall picom
 picom &
+
+killall polybar
+polybar bar &
+
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X

@@ -13,6 +13,7 @@ function install {
 		"bspwm" "Tiling Window Manager" ON \
 		"Neofetch" "Information Tool" ON \
 		"Picom" "Compositor" ON \
+		"Polybar" "Status Bar" ON \
 		"Rofi" "Application Launcher" ON \
 		"sxhkd" "Hotkey Daemon" ON \
 		"Zsh" "Unix Shell" ON \
@@ -29,6 +30,7 @@ function install {
 			"bspwm") link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc ;;
 			"Neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
 			"Picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;
+			"Polybar") link home/config/polybar/config ~/.config/polybar/config ;;
 			"Rofi") link home/config/rofi/config.rasi ~/.config/rofi/config.rasi ;;
 			"sxhkd") link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc ;;
 			"Zsh") link home/zshrc ~/.zshrc ;;

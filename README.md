@@ -22,6 +22,7 @@ _Coming Soon_
 - [bspwm](https://github.com/baskerville/bspwm)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
 - [Picom](https://github.com/yshui/picom)
+- [Polybar](https://github.com/polybar/polybar)
 - [Rofi](https://github.com/davatorium/rofi)
 - [sxhkd](https://github.com/baskerville/sxhkd)
 - [Zsh](https://www.zsh.org)

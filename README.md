@@ -28,7 +28,7 @@ _Coming Soon_
 
 ## Setup
 
-## Simple
+### Simple
 
 ```bash
 curl -L https://git.io/JOBCT | sh

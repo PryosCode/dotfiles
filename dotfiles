@@ -9,12 +9,13 @@ function link {
 
 function install {
 	MODULES=`whiptail --title "dotfiles" --separate-output --checklist "Which configs do you want to install?" 20 75 10 \
-		"alacritty" "Terminal Emulator" ON \
+		"Alacritty" "Terminal Emulator" ON \
 		"bspwm" "Tiling Window Manager" ON \
-		"neofetch" "Information Tool" ON \
-		"picom" "Compositor" ON \
+		"Neofetch" "Information Tool" ON \
+		"Picom" "Compositor" ON \
+		"Rofi" "Application Launcher" ON \
 		"sxhkd" "Hotkey Daemon" ON \
-		"zsh" "Unix Shell" ON \
+		"Zsh" "Unix Shell" ON \
 		3>&2 2>&1 1>&3`
 	if [ -z "$MODULES" ]; then
 		exit
@@ -24,12 +25,13 @@ function install {
 	fi
 	for MODULE in $MODULES; do
 		case $MODULE in
-			"alacritty") link home/config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml ;;
+			"Alacritty") link home/config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml ;;
 			"bspwm") link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc ;;
-			"neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
-			"picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;
+			"Neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
+			"Picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;
+			"Rofi") link home/config/rofi/config.rasi ~/.config/rofi/config.rasi ;;
 			"sxhkd") link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc ;;
-			"zsh") link home/zshrc ~/.zshrc ;;
+			"Zsh") link home/zshrc ~/.zshrc ;;
 		esac
 	done
 }

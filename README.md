@@ -18,12 +18,13 @@ _Coming Soon_
 
 ## Included
 
-- [alacritty](https://github.com/alacritty/alacritty)
+- [Alacritty](https://github.com/alacritty/alacritty)
 - [bspwm](https://github.com/baskerville/bspwm)
-- [neofetch](https://github.com/dylanaraps/neofetch)
-- [picom](https://github.com/yshui/picom)
+- [Neofetch](https://github.com/dylanaraps/neofetch)
+- [Picom](https://github.com/yshui/picom)
+- [Rofi](https://github.com/davatorium/rofi)
 - [sxhkd](https://github.com/baskerville/sxhkd)
-- [zsh](https://www.zsh.org)
+- [Zsh](https://www.zsh.org)
 
 ## Setup
 

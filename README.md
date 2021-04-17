@@ -28,6 +28,14 @@ _Coming Soon_
 
 ## Setup
 
+## Simple
+
+```bash
+curl -L https://git.io/JOBCT | sh
+```
+
+### Manually
+
 ```bash
 git clone https://github.com/PryosCode/dotfiles
 cd dotfiles

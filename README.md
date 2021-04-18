@@ -29,7 +29,7 @@ _Coming Soon_
 
 ## Setup
 
-### Simple
+### Automatically
 
 ```bash
 curl -L https://git.io/JOBNJ | sh

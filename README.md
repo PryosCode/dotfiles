@@ -48,7 +48,7 @@ chmod +x dotfiles
 
 ## Credits
 
-- [onedark.png](home/config/wallpapers) - [VictorTennekes](https://www.reddit.com/r/wallpaper/comments/ggld65/atom_one_dark_triangles_2560_x_1600/)
+- [onedark.png](home/config/wallpapers/onedark.png) - [VictorTennekes](https://www.reddit.com/r/wallpaper/comments/ggld65/atom_one_dark_triangles_2560_x_1600/)
 
 ## License
 

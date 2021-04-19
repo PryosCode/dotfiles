@@ -27,6 +27,7 @@ _Coming Soon_
 - [Polybar](https://github.com/polybar/polybar)
 - [Rofi](https://github.com/davatorium/rofi)
 - [sxhkd](https://github.com/baskerville/sxhkd)
+- [Wallpapers](home/config/wallpapers)
 - [Zsh](https://www.zsh.org)
 
 ## Setup

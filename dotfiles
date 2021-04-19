@@ -9,8 +9,9 @@ function link {
 
 function install {
 	MODULES=`whiptail --title "dotfiles" --separate-output --checklist "Which configs do you want to install?" 20 75 10 \
+		"Alacritty" "Terminal Emulator" ON \
+		"bsp-layout" "Manage layouts" ON \
 		"bspwm" "Tiling Window Manager" ON \
-		"kitty" "Terminal Emulator" ON \
 		"Neofetch" "Information Tool" ON \
 		"Picom" "Compositor" ON \
 		"Polybar" "Status Bar" ON \
@@ -26,8 +27,9 @@ function install {
 	fi
 	for MODULE in $MODULES; do
 		case $MODULE in
+			"Alacritty") link home/config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml ;;
+			"bsp-layout") link home/config/bsp-layout/layoutrc ~/.config/bsp-layout/layoutrc  ;;
 			"bspwm") link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc ;;
-			"kitty") link home/config/kitty/kitty.conf ~/.config/kitty/kitty.conf ;;
 			"Neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
 			"Picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;
 			"Polybar") link home/config/polybar/config ~/.config/polybar/config ;;

@@ -18,8 +18,9 @@ _Coming Soon_
 
 ## Included
 
+- [Alacritty](https://github.com/alacritty/alacritty)
+- [bsp-layout](https://github.com/phenax/bsp-layout)
 - [bspwm](https://github.com/baskerville/bspwm)
-- [kitty](https://github.com/kovidgoyal/kitty)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
 - [Picom](https://github.com/yshui/picom)
 - [Polybar](https://github.com/polybar/polybar)

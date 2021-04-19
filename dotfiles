@@ -28,7 +28,7 @@ function install {
 	for MODULE in $MODULES; do
 		case $MODULE in
 			"Alacritty") link home/config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml ;;
-			"bsp-layout") link home/config/bsp-layout/layoutrc ~/.config/bsp-layout/layoutrc  ;;
+			"bsp-layout") link home/config/bsp-layout/layoutrc ~/.config/bsp-layout/layoutrc ;;
 			"bspwm") link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc ;;
 			"Neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
 			"Picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;

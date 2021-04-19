@@ -2,6 +2,7 @@
 
 dunst &
 picom &
+feh --bg-scale ~/.config/wallpapers/onedark.png
 
 killall polybar
 polybar bar &

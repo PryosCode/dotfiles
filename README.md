@@ -46,6 +46,10 @@ chmod +x dotfiles
 ./dotfiles
 ```
 
+## Credits
+
+- [onedark.png](home/config/wallpapers) - [VictorTennekes](https://www.reddit.com/r/wallpaper/comments/ggld65/atom_one_dark_triangles_2560_x_1600/)
+
 ## License
 
 [Apache License 2.0](LICENSE)

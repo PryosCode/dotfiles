@@ -18,6 +18,7 @@ function install {
 		"Polybar" "Status Bar" ON \
 		"Rofi" "Application Launcher" ON \
 		"sxhkd" "Hotkey Daemon" ON \
+		"Wallpapers" "Wallpaper Collection" ON \
 		"Zsh" "Unix Shell" ON \
 		3>&2 2>&1 1>&3`
 	if [ -z "$MODULES" ]; then
@@ -37,6 +38,9 @@ function install {
 			"Polybar") link home/config/polybar/config ~/.config/polybar/config ;;
 			"Rofi") link home/config/rofi/config.rasi ~/.config/rofi/config.rasi ;;
 			"sxhkd") link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc ;;
+			"Wallpapers")
+				link home/config/wallpapers/onedark.png ~/.config/wallpapers/onedark.png
+			;;
 			"Zsh") link home/zshrc ~/.zshrc ;;
 		esac
 	done

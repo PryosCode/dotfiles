@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+dunst &
 picom &
 
 killall polybar
@@ -8,7 +8,7 @@ polybar bar &
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 
 bsp-layout set tall 1
 

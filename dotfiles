@@ -12,6 +12,7 @@ function install {
 		"Alacritty" "Terminal Emulator" ON \
 		"bsp-layout" "Manage layouts" ON \
 		"bspwm" "Tiling Window Manager" ON \
+		"Dunst" "Notification Daemon" ON \
 		"Neofetch" "Information Tool" ON \
 		"Picom" "Compositor" ON \
 		"Polybar" "Status Bar" ON \
@@ -30,6 +31,7 @@ function install {
 			"Alacritty") link home/config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml ;;
 			"bsp-layout") link home/config/bsp-layout/layoutrc ~/.config/bsp-layout/layoutrc ;;
 			"bspwm") link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc ;;
+			"Dunst") link home/config/dunst/dunstrc ~/.config/dunst/dunstrc ;;
 			"Neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
 			"Picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;
 			"Polybar") link home/config/polybar/config ~/.config/polybar/config ;;

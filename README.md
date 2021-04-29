@@ -19,14 +19,9 @@ _Coming Soon_
 ## Included
 
 - [Alacritty](https://github.com/alacritty/alacritty)
-- [bsp-layout](https://github.com/phenax/bsp-layout)
-- [bspwm](https://github.com/baskerville/bspwm)
-- [Dunst](https://github.com/dunst-project/dunst)
+- [Awesome](https://github.com/awesomeWM/awesome)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
 - [Picom](https://github.com/yshui/picom)
-- [Polybar](https://github.com/polybar/polybar)
-- [Rofi](https://github.com/davatorium/rofi)
-- [sxhkd](https://github.com/baskerville/sxhkd)
 - [Wallpapers](home/config/wallpapers)
 - [Zsh](https://www.zsh.org)
 

@@ -10,14 +10,9 @@ function link {
 function install {
 	MODULES=`whiptail --title "dotfiles" --separate-output --checklist "Which configs do you want to install?" 20 75 10 \
 		"Alacritty" "Terminal Emulator" ON \
-		"bsp-layout" "Manage layouts" ON \
-		"bspwm" "Tiling Window Manager" ON \
-		"Dunst" "Notification Daemon" ON \
+		"Awesome" "Tiling Window Manager" ON \
 		"Neofetch" "Information Tool" ON \
 		"Picom" "Compositor" ON \
-		"Polybar" "Status Bar" ON \
-		"Rofi" "Application Launcher" ON \
-		"sxhkd" "Hotkey Daemon" ON \
 		"Wallpapers" "Wallpaper Collection" ON \
 		"Zsh" "Unix Shell" ON \
 		3>&2 2>&1 1>&3`
@@ -30,14 +25,9 @@ function install {
 	for MODULE in $MODULES; do
 		case $MODULE in
 			"Alacritty") link home/config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml ;;
-			"bsp-layout") link home/config/bsp-layout/layoutrc ~/.config/bsp-layout/layoutrc ;;
-			"bspwm") link home/config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc ;;
-			"Dunst") link home/config/dunst/dunstrc ~/.config/dunst/dunstrc ;;
+			"Awesome") link home/config/awesome/rc.lua ~/.config/awesome/rc.lua ;;
 			"Neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
 			"Picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;
-			"Polybar") link home/config/polybar/config ~/.config/polybar/config ;;
-			"Rofi") link home/config/rofi/config.rasi ~/.config/rofi/config.rasi ;;
-			"sxhkd") link home/config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc ;;
 			"Wallpapers")
 				link home/config/wallpapers/onedark.png ~/.config/wallpapers/onedark.png
 			;;

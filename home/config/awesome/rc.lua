@@ -62,6 +62,7 @@ modkey = "Mod4"
 -- Autostart
 
 awful.util.spawn_with_shell("dex -a")
+awful.util.spawn_with_shell("picom")
 
 -- Table of layouts to cover with awful.layout.inc, order matters.
 awful.layout.layouts = {

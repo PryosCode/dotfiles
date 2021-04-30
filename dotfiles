@@ -91,7 +91,10 @@ function install {
 			"Wallpapers")
 				link home/config/wallpapers/onedark.png ~/.config/wallpapers/onedark.png
 			;;
-			"Zsh") link home/zshrc ~/.zshrc ;;
+			"Zsh")
+				# TODO
+				link home/zshrc ~/.zshrc
+			;;
 		esac
 	done
 }

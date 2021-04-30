@@ -25,7 +25,67 @@ function install {
 	for MODULE in $MODULES; do
 		case $MODULE in
 			"Alacritty") link home/config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml ;;
-			"Awesome") link home/config/awesome/rc.lua ~/.config/awesome/rc.lua ;;
+			"Awesome")
+				link home/config/awesome/rc.lua ~/.config/awesome/rc.lua
+				link home/config/awesome/themes/default/background.png ~/.config/awesome/themes/default/background.png
+				link home/config/awesome/themes/default/background_white.png ~/.config/awesome/themes/default/background_white.png
+				link home/config/awesome/themes/default/submenu.png ~/.config/awesome/themes/default/submenu.png
+				link home/config/awesome/themes/default/theme.lua ~/.config/awesome/themes/default/theme.lua
+				link home/config/awesome/themes/default/layouts/cornerne.png ~/.config/awesome/themes/default/layouts/cornerne.png
+				link home/config/awesome/themes/default/layouts/cornernew.png ~/.config/awesome/themes/default/layouts/cornernew.png
+				link home/config/awesome/themes/default/layouts/cornernw.png ~/.config/awesome/themes/default/layouts/cornernw.png
+				link home/config/awesome/themes/default/layouts/cornernww.png ~/.config/awesome/themes/default/layouts/cornernww.png
+				link home/config/awesome/themes/default/layouts/cornerse.png ~/.config/awesome/themes/default/layouts/cornerse.png
+				link home/config/awesome/themes/default/layouts/cornersew.png ~/.config/awesome/themes/default/layouts/cornersew.png
+				link home/config/awesome/themes/default/layouts/cornersw.png ~/.config/awesome/themes/default/layouts/cornersw.png
+				link home/config/awesome/themes/default/layouts/cornersww.png ~/.config/awesome/themes/default/layouts/cornersww.png
+				link home/config/awesome/themes/default/layouts/dwindle.png ~/.config/awesome/themes/default/layouts/dwindle.png
+				link home/config/awesome/themes/default/layouts/dwindlew.png ~/.config/awesome/themes/default/layouts/dwindlew.png
+				link home/config/awesome/themes/default/layouts/fairh.png ~/.config/awesome/themes/default/layouts/fairh.png
+				link home/config/awesome/themes/default/layouts/fairhw.png ~/.config/awesome/themes/default/layouts/fairhw.png
+				link home/config/awesome/themes/default/layouts/fairv.png ~/.config/awesome/themes/default/layouts/fairv.png
+				link home/config/awesome/themes/default/layouts/fairvw.png ~/.config/awesome/themes/default/layouts/fairvw.png
+				link home/config/awesome/themes/default/layouts/floating.png ~/.config/awesome/themes/default/layouts/floating.png
+				link home/config/awesome/themes/default/layouts/floatingw.png ~/.config/awesome/themes/default/layouts/floatingw.png
+				link home/config/awesome/themes/default/layouts/fullscreen.png ~/.config/awesome/themes/default/layouts/fullscreen.png
+				link home/config/awesome/themes/default/layouts/fullscreenw.png ~/.config/awesome/themes/default/layouts/fullscreenw.png
+				link home/config/awesome/themes/default/layouts/magnifier.png ~/.config/awesome/themes/default/layouts/magnifier.png
+				link home/config/awesome/themes/default/layouts/magnifierw.png ~/.config/awesome/themes/default/layouts/magnifierw.png
+				link home/config/awesome/themes/default/layouts/max.png ~/.config/awesome/themes/default/layouts/max.png
+				link home/config/awesome/themes/default/layouts/maxw.png ~/.config/awesome/themes/default/layouts/maxw.png
+				link home/config/awesome/themes/default/layouts/spiral.png ~/.config/awesome/themes/default/layouts/spiral.png
+				link home/config/awesome/themes/default/layouts/spiralw.png ~/.config/awesome/themes/default/layouts/spiralw.png
+				link home/config/awesome/themes/default/layouts/tilebottom.png ~/.config/awesome/themes/default/layouts/tilebottom.png
+				link home/config/awesome/themes/default/layouts/tilebottomw.png ~/.config/awesome/themes/default/layouts/tilebottomw.png
+				link home/config/awesome/themes/default/layouts/tileleft.png ~/.config/awesome/themes/default/layouts/tileleft.png
+				link home/config/awesome/themes/default/layouts/tileleftw.png ~/.config/awesome/themes/default/layouts/tileleftw.png
+				link home/config/awesome/themes/default/layouts/tile.png ~/.config/awesome/themes/default/layouts/tile.png
+				link home/config/awesome/themes/default/layouts/tiletop.png ~/.config/awesome/themes/default/layouts/tiletop.png
+				link home/config/awesome/themes/default/layouts/tiletopw.png ~/.config/awesome/themes/default/layouts/tiletopw.png
+				link home/config/awesome/themes/default/layouts/tilew.png ~/.config/awesome/themes/default/layouts/tilew.png
+				link home/config/awesome/themes/default/taglist/squarefw.png ~/.config/awesome/themes/default/taglist/squarefw.png
+				link home/config/awesome/themes/default/taglist/squarew.png ~/.config/awesome/themes/default/taglist/squarew.png
+				link home/config/awesome/themes/default/titlebar/close_focus.png ~/.config/awesome/themes/default/titlebar/close_focus.png
+				link home/config/awesome/themes/default/titlebar/close_normal.png ~/.config/awesome/themes/default/titlebar/close_normal.png
+				link home/config/awesome/themes/default/titlebar/floating_focus_active.png ~/.config/awesome/themes/default/titlebar/floating_focus_active.png
+				link home/config/awesome/themes/default/titlebar/floating_focus_inactive.png ~/.config/awesome/themes/default/titlebar/floating_focus_inactive.png
+				link home/config/awesome/themes/default/titlebar/floating_normal_active.png ~/.config/awesome/themes/default/titlebar/floating_normal_active.png
+				link home/config/awesome/themes/default/titlebar/floating_normal_inactive.png ~/.config/awesome/themes/default/titlebar/floating_normal_inactive.png
+				link home/config/awesome/themes/default/titlebar/maximized_focus_active.png ~/.config/awesome/themes/default/titlebar/maximized_focus_active.png
+				link home/config/awesome/themes/default/titlebar/maximized_focus_inactive.png ~/.config/awesome/themes/default/titlebar/maximized_focus_inactive.png
+				link home/config/awesome/themes/default/titlebar/maximized_normal_active.png ~/.config/awesome/themes/default/titlebar/maximized_normal_active.png
+				link home/config/awesome/themes/default/titlebar/maximized_normal_inactive.png ~/.config/awesome/themes/default/titlebar/maximized_normal_inactive.png
+				link home/config/awesome/themes/default/titlebar/minimize_focus.png ~/.config/awesome/themes/default/titlebar/minimize_focus.png
+				link home/config/awesome/themes/default/titlebar/minimize_normal.png ~/.config/awesome/themes/default/titlebar/minimize_normal.png
+				link home/config/awesome/themes/default/titlebar/ontop_focus_active.png ~/.config/awesome/themes/default/titlebar/ontop_focus_active.png
+				link home/config/awesome/themes/default/titlebar/ontop_focus_inactive.png ~/.config/awesome/themes/default/titlebar/ontop_focus_inactive.png
+				link home/config/awesome/themes/default/titlebar/ontop_normal_active.png ~/.config/awesome/themes/default/titlebar/ontop_normal_active.png
+				link home/config/awesome/themes/default/titlebar/ontop_normal_inactive.png ~/.config/awesome/themes/default/titlebar/ontop_normal_inactive.png
+				link home/config/awesome/themes/default/titlebar/sticky_focus_active.png ~/.config/awesome/themes/default/titlebar/sticky_focus_active.png
+				link home/config/awesome/themes/default/titlebar/sticky_focus_inactive.png ~/.config/awesome/themes/default/titlebar/sticky_focus_inactive.png
+				link home/config/awesome/themes/default/titlebar/sticky_normal_active.png ~/.config/awesome/themes/default/titlebar/sticky_normal_active.png
+				link home/config/awesome/themes/default/titlebar/sticky_normal_inactive.png ~/.config/awesome/themes/default/titlebar/sticky_normal_inactive.png
+			;;
 			"Neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
 			"Picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;
 			"Wallpapers")

@@ -12,7 +12,9 @@ function install {
 		"Alacritty" "Terminal Emulator" ON \
 		"Awesome" "Tiling Window Manager" ON \
 		"Neofetch" "Information Tool" ON \
-		"Picom" "Compositor" ON \
+		"Neovim" "Text Editor" ON \
+		"picom" "Compositor" ON \
+		"ranger" "File Manager" ON \
 		"Wallpapers" "Wallpaper Collection" ON \
 		"Zsh" "Unix Shell" ON \
 		3>&2 2>&1 1>&3`
@@ -87,7 +89,17 @@ function install {
 				link home/config/awesome/themes/default/titlebar/sticky_normal_inactive.png ~/.config/awesome/themes/default/titlebar/sticky_normal_inactive.png
 			;;
 			"Neofetch") link home/config/neofetch/config.conf ~/.config/neofetch/config.conf ;;
-			"Picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;
+			"Neovim")
+				# TODO
+			;;
+			"picom") link home/config/picom/picom.conf ~/.config/picom/picom.conf ;;
+			"ranger")
+				link home/config/ranger/rifle.conf ~/.config/ranger/rifle.conf
+				link home/config/ranger/commands.py ~/.config/ranger/commands.py
+				link home/config/ranger/commands_full.py ~/.config/ranger/commands_full.py
+				link home/config/ranger/rc.conf ~/.config/ranger/rc.conf
+				link home/config/ranger/scope.sh ~/.config/ranger/scope.sh
+			;;
 			"Wallpapers")
 				link home/config/wallpapers/onedark.png ~/.config/wallpapers/onedark.png
 			;;

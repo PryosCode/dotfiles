@@ -100,4 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export EDITOR=nvim;
+export EDITOR=nvim
+
+alias vim="nvim"
+alias ls="exa"
+alias cat="bat"

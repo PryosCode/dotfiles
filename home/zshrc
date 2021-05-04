@@ -104,4 +104,4 @@ export EDITOR=nvim
 
 alias vim="nvim"
 alias ls="exa -l"
-alias cat="bat"
+alias cat="bat -p"

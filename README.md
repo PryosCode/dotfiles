@@ -21,9 +21,7 @@ _Coming Soon_
 - [Alacritty](https://github.com/alacritty/alacritty)
 - [Awesome](https://github.com/awesomeWM/awesome)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
-- [Neovim](https://github.com/neovim/neovim)
 - [picom](https://github.com/yshui/picom)
-- [ranger](https://github.com/ranger/ranger)
 - [Wallpapers](home/config/wallpapers)
 - [Zsh](https://www.zsh.org)
 

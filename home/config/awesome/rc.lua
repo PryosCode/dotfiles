@@ -63,6 +63,7 @@ modkey = "Mod4"
 
 awful.util.spawn_with_shell("dex -a")
 awful.util.spawn_with_shell("picom")
+awful.util.spawn_with_shell("nm-applet")
 
 -- Table of layouts to cover with awful.layout.inc, order matters.
 awful.layout.layouts = {
